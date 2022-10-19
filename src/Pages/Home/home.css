@@ -1,0 +1,84 @@
+
+
+.familia{
+    background-image: url(../../Images/cachorro_com_familia.jpg);
+    height: 500px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-left:5vh;
+    margin-right:5vh;
+    
+    
+}
+
+.familia_text{
+    
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left:15%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight:  bold;
+  
+}
+
+.botao{
+    background-color: #1333DB; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.posicao{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.posicao h1{
+    font-size: 1.5rem;
+    color:#1333DB; 
+}
+
+.posicao p{
+    font-size: 1.5rem;
+    
+}
+
+.box{
+  width: auto;
+  position: relative;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 1em 2em;
+  padding-bottom: 50px;
+}
+
+.btn{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+    margin-bottom: 3em;
+}

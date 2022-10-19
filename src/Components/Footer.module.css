@@ -1,0 +1,34 @@
+.footer{
+    background-color: #1333DB;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    
+  
+}
+
+.list{
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    
+}
+
+.list li{
+    margin-left: 5em;
+    color:white
+}
+
+.list li:hover{
+    color: #db8b13;
+}
+.list svg{
+    cursor:pointer;
+    font-size: 5em;
+}
+
+.img{
+    width: 5.5rem ;
+    height: 5rem;
+    margin-right: auto;
+}

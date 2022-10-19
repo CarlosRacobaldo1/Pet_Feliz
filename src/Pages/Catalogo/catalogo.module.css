@@ -1,0 +1,36 @@
+.titulo{
+    font-size: 3rem;
+    color: #1313DB;
+    text-align: center;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 1rem 1rem;
+    grid-template-areas:
+    " C1 C2 C3"
+    " C1 C2 C3"
+    " C1 C2 C3";
+    grid-gap:0.2rem ;
+}
+
+.C1{
+    grid-area: C1;
+    
+}
+
+.C2{
+    grid-area: C2;
+    
+}
+
+.C3{
+    grid-area: C3;
+    
+}

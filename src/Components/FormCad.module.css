@@ -1,0 +1,10 @@
+.form {
+    width: fixed;
+   
+}
+
+.lado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

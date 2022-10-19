@@ -1,0 +1,26 @@
+.section{
+        position:relative;
+        display:'flex';
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        height: 100hv;
+        padding: 1.5rem;
+        border-radius: 25px;
+        border: 1px solid black;
+        margin:auto; 
+        margin-bottom: 9em;   
+}
+
+.titulo{
+    font-size: 1.5rem;
+    color:#1333DB;  
+    justify-content: left;
+}
+
+.text{
+    color: black;
+    font-size: 20px;
+    justify-content: left;
+}
+

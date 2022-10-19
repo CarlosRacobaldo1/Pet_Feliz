@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.botao{
+    background-color: #1333DB; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.botao a:hover{
+    color: #db8b13;
+}
+
+.img{
+    width: 5.5em ;
+    height: 5rem;
+}
+
+.item{
+    margin-right:1em ;
+    font-size: 2rem;
+}
+
+.item a{
+    color:#1333DB;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: #db8b13;
+}
